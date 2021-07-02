@@ -1,40 +1,35 @@
-    * {
-        /* never change color here
-        ONLY TEXT
-    */
-    }
-    /* everything still needs work */
+/* everything still needs work */
+
+body {
+    background-color: #2e6466;
+}
+
+h1 {
+    color: #e2e3e5;
+    text-align: center;
+}
+
+header {
+    align-content: flex-end;
+}
+
+.container {
     
-    body {
-        background-color: #2e6466;
-    }
-    
-    h1 {
-        color: #e2e3e5;
-        text-align: center;
-    }
-    
-    header {
-        align-content: flex-end;
-    }
-    
-    .container {
-        display: grid | inline-grid;
-    }
-    
-    hr {
-        color: #0a0b10;
-    }
-    
-    h1:first-child {
-        text-align: center;
-    }
-    
-    section,
-    h3 {
-        text-align: center;
-    }
-    
-    ul li nav-item:hover {
-        color: red;
-    }
+}
+
+hr {
+    color: #0a0b10;
+}
+
+h1:first-child {
+    text-align: center;
+}
+
+section,
+h3 {
+    text-align: center;
+}
+
+ul li nav-item:hover {
+    color: red;
+}
